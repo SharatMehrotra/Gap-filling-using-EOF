@@ -13,7 +13,7 @@ EOF analysis, has been suggested to retrieve the missing values in data sets. Us
 
 
 <h3>Conclusion</h3>
-EOF analysis is an iterative algorithm used to predict the missing values in InSAR and GPS data. We can reconstruct and refine the time series without needing any information about the data beforehand. [1] The algorithm initializes the missing values, selects the number of components preserving maximum variability and refines the final matrix till point of convergence. Therefore, the conclusion can be drawn that EOF based gap filling analysis is an effective way of filling missing values in InSAR and GPS data.
-
+EOF analysis is an iterative algorithm used to predict the missing values in InSAR and GPS data. We can reconstruct and refine the time series without needing any information about the data beforehand. [1] The algorithm initializes the missing values, selects the number of components preserving maximum variability and refines the final matrix till point of convergence. Therefore, the conclusion can be drawn that EOF based gap filling analysis is an effective way of filling missing values in InSAR and GPS data.<br>
+The accuracy of this method can be confirmed by observing the scatter plot for the InSAR and GPS cross-validation set between the predicted values and the actual values. The trend of the predicted EOF values is very close to the y = x line (which represents the ideal case of every predicted value being equal to the actual value), hence, we can conclude that EOF analysis is an efficient way to predict missing values in data sets.
 
 The jupiter notebooks are named according to the data set it is using. The beta/ (convergence threshold) can be adjusted as per the refinement needed. 
